@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@800&family=Roboto&family=Square+Peg&display=swap');
+
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left bottom, #fb7a04, #ff9b00, #ffbc00, #ffdd00, #fffe00);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.titulo {
+    padding: 15px;
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 5px 7px #f7da8c;
+}
+
+.marcador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 40%;
+    height: 95%;
+    justify-self: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.img {
+    background-image: url(../multimedia/pingpong.jpg);
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .imagen {
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 5%;
+    
+} */
+
+
+h1 .titulo-marcador {
+    margin: 0px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+
+.cantpartidas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(158, 157, 157);
+}
+
+p {
+    margin-left: 20px;
+    padding: 20px;
+    
+}
+
+select {
+    padding: 10px;
+    width: 10%;
+    height: 40%;
+}
+
+.botones {
+    
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+
+button {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.boton1 {
+    background-color: purple;
+    color: white;
+}
+
+
+
+.boton2 {
+    background-color: rgb(3, 167, 3);
+    color: white;
+}
+
+#reset {
+    background-color: rgb(250, 56, 88);
+    color: white;
+}
+
+.mensaje {
+    width: 30%;
+    padding: 10px;
+    
+    
+}
+
+.final {
+    background-color: #f7da8c;
+    box-shadow: 1px 5px 7px brown;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+.boton-disabled {
+    background-color: rgb(158, 157, 157);
+    color: rgb(134, 133, 133);
+}
