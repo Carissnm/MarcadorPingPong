@@ -16,7 +16,7 @@ const jugador2 = {
 const mensaje = document.querySelector("#mensaje")
 const botonReset = document.querySelector("#reset");
 const cantPartidasSelector = document.querySelector("#partidas")
-let cantidadPartidas = 3;
+let cantidadPartidas = 0;
 let isGameOver = false;
 
 function scoreKeeper(jugador, oponente){
